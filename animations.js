@@ -40,7 +40,7 @@ function setTheInterval(element, grow) {
                 left: x,
                 top: y,
                 backgroundColor: 'rgb('+ Math.floor(Math.random()*256) + ',' + Math.floor(Math.random()*256) +',' + Math.floor(Math.random()*256) + ')'/*,
-                borderColor: 'rgb('+ Math.floor(Math.random()*256) + ',' + Math.floor(Math.random()*256) +',' + Math.floor(Math.random()*256) + ')'*/
+                 borderColor: 'rgb('+ Math.floor(Math.random()*256) + ',' + Math.floor(Math.random()*256) +',' + Math.floor(Math.random()*256) + ')'*/
             }, 2000);
         }
     }, 4000);
@@ -91,7 +91,7 @@ $(document).ready(function() {
     resizeFunctions();
 
     /*document.onscroll = function() {
-        checkNavBar();
-    };*/
+     checkNavBar();
+     };*/
 
 });

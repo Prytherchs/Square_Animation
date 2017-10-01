@@ -81,7 +81,7 @@ $(document).ready(function() {
         }
     }, spawnRate);
     setTimeout(function(){
-        var image = $("#just");
+        var image = $("#thumb");
         setTheInterval(image, true);
     }, 8000);
 
